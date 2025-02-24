@@ -10,7 +10,7 @@ RUN pip install dvc[s3] boto3
 COPY . /app
 WORKDIR /app
 
-RUN dvc remote add -d -f myremote s3://<bucket-name> && \
+RUN dvc remote add -d -f myremote s3://dvc-s3 && \
     dvc remote modify myremote endpointurl https://storage.yandexcloud.net && \
     dvc remote modify myremote region ru-central1 && \
     dvc remote modify myremote use_ssl true

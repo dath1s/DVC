@@ -1,0 +1,6 @@
+outs:
+- md5: fc4cb0b6b8c022484645a10568dec2c5.dir
+  size: 20
+  nfiles: 1
+  hash: md5
+  path: scripts-s3

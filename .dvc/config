@@ -1,0 +1,8 @@
+[core]
+    remote = myremote
+    autostage = true
+['remote "myremote"']
+    url = s3://dvc-s3
+    endpointurl = https://storage.yandexcloud.net
+    region = ru-central1
+    use_ssl = true

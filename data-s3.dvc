@@ -1,0 +1,6 @@
+outs:
+- md5: d5a9ca2569b3c1840564baad50ffc8a2.dir
+  size: 0
+  nfiles: 1
+  hash: md5
+  path: data-s3

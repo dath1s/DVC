@@ -1,5 +1,6 @@
 services:
   dvc:
+    container_name: DVC
     build:
       context: .
       dockerfile: DockerfileDVC
@@ -9,3 +10,4 @@ services:
     environment:
       - AWS_ACCESS_KEY_ID=${AWS_ACCESS_KEY_ID}
       - AWS_SECRET_ACCESS_KEY=${AWS_SECRET_ACCESS_KEY}
+    command: ["sh", "dvcpull.sh"]

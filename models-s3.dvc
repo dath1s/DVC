@@ -1,0 +1,6 @@
+outs:
+- md5: fb37843a0aa286ed2c30cba4c6f93e3f.dir
+  size: 4
+  nfiles: 2
+  hash: md5
+  path: models-s3
