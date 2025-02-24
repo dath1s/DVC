@@ -6,9 +6,3 @@
 3) ```bash
     docker-compose up
     ```
-4)  При успешном билде 
-    ```bash
-    docker run -it --rm <image-name> bash
-    ```
-
-- Далее можно применять команды dvc(dvc pull, dvc add и т.д.)
