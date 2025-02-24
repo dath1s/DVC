@@ -171,3 +171,7 @@ cython_debug/
 .pypirc
 
 .dvc
+/models
+/data
+/scripts
+*.dvc
